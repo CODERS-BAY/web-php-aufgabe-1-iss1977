@@ -1,0 +1,646 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    background-color: #10C4C1;
+    font-size: 100%;
+}
+
+.uebung01{
+    min-height: 100vh;
+    width : 100vw;
+    background-color: #10C4C1;
+}
+
+.uebung01-titel{
+    display: inline-block;
+    height: 1.2 rem;
+    width : 140px;
+    margin: 2rem;
+    border: #086664 solid 2px;
+    background: linear-gradient(12deg, rgba(8,102,100,1) 0%, rgba(24,214,210,1) 100%);
+    box-shadow: 10px 10px 5px 0px #086664;
+    border-right: whitesmoke 2px solid;
+    border-bottom:  whitesmoke 2px solid;
+}
+
+.uebung01 .uebung01-titel h1{
+    color : white;
+    margin : 10px;
+
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.form-div{
+    display: block;
+    width : 80%;
+    min-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    background: linear-gradient(131deg, rgba(255,255,255,1) 0%, rgba(40,64,63,0.711922268907563) 100%);
+    box-shadow: 10px 10px 5px 0px #868686;
+}
+
+.eingabe-form{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    display: block;
+    justify-content: center;
+    margin : 10px auto;
+    padding: 10px;
+}
+
+.eingabe-form .row{
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.eingabe-form .row label{
+
+}
+
+.eingabe-form .row input {
+    flex: 1;
+    flex-basis: 300px;
+    padding: 10px;
+    margin-left: 2rem;
+}
+
+.eingabe-form .button-row{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.eingabe-form .button-row button{
+    margin: 10px;
+    padding: 5px;
+    margin-right: 0px;
+}
+
+
+
+/* -----------------------------------------    Übung 2 formatierung  -----------------------------------------*/
+
+.uebung02{
+    min-height: 100vh;
+    width : 100vw;
+    background-color: #E6C174;
+}
+
+.uebung02-titel{
+    display: inline-block;
+    height: 1.2 rem;
+    width : 140px;
+    margin: 2rem;
+    border: #997C3D solid 2px;
+    background: linear-gradient(12deg, #E6C174 0%,#B09458 100%);
+    box-shadow: 10px 10px 5px 0px #086664;
+    border-right: whitesmoke 2px solid;
+    border-bottom:  whitesmoke 2px solid;
+}
+
+.uebung02 .uebung02-titel h1{
+    color : white;
+    margin : 10px;
+
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.form-div-2{
+    display: block;
+    width : 80%;
+    min-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    background: linear-gradient(131deg, rgba(255,255,255,1) 0%, rgba(40,64,63,0.711922268907563) 100%);
+    box-shadow: 10px 10px 5px 0px #868686;
+}
+
+.eingabe-form-2{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    display: block;
+    justify-content: center;
+    margin : 10px auto;
+    padding: 10px;
+}
+
+.eingabe-form-2 .row{
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.eingabe-form-2 .row label{
+
+}
+
+.eingabe-form-2 .row input {
+    flex: 1;
+    flex-basis: 300px;
+    padding: 10px;
+    margin-left: 2rem;
+}
+
+.eingabe-form-2 .button-row{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.eingabe-form-2 .button-row button{
+    margin: 10px;
+    padding: 5px;
+    margin-right: 0px;
+}
+
+
+/* -----------------------------------------    Übung 3 formatierung  -----------------------------------------*/
+
+.uebung03{
+    min-height: 100vh;
+    width : 100vw;
+    background-color: #94B7E6;
+}
+
+.uebung03-titel{
+    display: inline-block;
+    height: 1.2 rem;
+    width : 140px;
+    margin: 2rem;
+    border: #997C3D solid 2px;
+    background: linear-gradient(12deg, #BDD9FF 0%,#537199 100%);
+    box-shadow: 10px 10px 5px 0px #086664;
+    border-right: whitesmoke 2px solid;
+    border-bottom:  whitesmoke 2px solid;
+}
+
+.uebung03 .uebung03-titel h1{
+    color : white;
+    margin : 10px;
+
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.form-div-3{
+    display: block;
+    width : 80%;
+    min-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    background: linear-gradient(131deg, rgba(255,255,255,1) 0%, #BDD9FF 100%);
+    box-shadow: 10px 10px 5px 0px #868686;
+}
+
+.eingabe-form-3{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    display: block;
+    justify-content: center;
+    margin : 10px auto;
+    padding: 10px;
+}
+
+.eingabe-form-3 .row{
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.eingabe-form-3 .row label{
+
+}
+
+.eingabe-form-3 .row input {
+    flex: 1;
+    flex-basis: 300px;
+    padding: 10px;
+    margin-left: 2rem;
+}
+
+.eingabe-form-3 .button-row{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.eingabe-form-3 .button-row button{
+    margin: 10px;
+    padding: 5px;
+    margin-right: 0px;
+}
+
+
+
+/* -----------------------------------------    Übung 4 formatierung  -----------------------------------------*/
+
+.uebung04{
+    min-height: 100vh;
+    width : 100vw;
+    background-color: #DCE2F5;
+}
+
+.uebung04-titel{
+    display: inline-block;
+    height: 1.2 rem;
+    width : 140px;
+    margin: 2rem;
+    border: #93A6E6 solid 2px;
+    background: linear-gradient(12deg, #DCE2F5 0%,#93A6E6 100%);
+    box-shadow: 10px 10px 5px 0px #086664;
+    border-right: whitesmoke 2px solid;
+    border-bottom:  whitesmoke 2px solid;
+}
+
+.uebung04 .uebung04-titel h1{
+    color : white;
+    margin : 10px;
+
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.form-div-4{
+    display: block;
+    width : 80%;
+    min-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    background: linear-gradient(131deg, rgba(255,255,255,1) 0%, #DCE2F5 100%);
+    box-shadow: 10px 10px 5px 0px #868686;
+}
+
+.eingabe-form-4{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    display: block;
+    justify-content: center;
+    margin : 10px auto;
+    padding: 10px;
+}
+
+.eingabe-form-4 .row{
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.eingabe-form-4 .row label{
+
+}
+
+.eingabe-form-4 .row input {
+    flex: 1;
+    flex-basis: 300px;
+    padding: 10px;
+    margin-left: 2rem;
+}
+
+.eingabe-form-4 .button-row{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.eingabe-form-4 .button-row button{
+    margin: 10px;
+    padding: 5px;
+    margin-right: 0px;
+}
+
+
+
+
+/* -----------------------------------------    Übung 5 formatierung  -----------------------------------------*/
+
+.uebung05{
+    min-height: 100vh;
+    width : 100vw;
+    background-color: #EEF5DC;
+}
+
+.uebung05-titel{
+    display: inline-block;
+    height: 1.2 rem;
+    width : 140px;
+    margin: 2rem;
+    border: #CFE693 solid 2px;
+    background: linear-gradient(12deg, #98B841 0%,#CFE693 100%);
+    box-shadow: 10px 10px 5px 0px #98B841;
+    border-right: whitesmoke 2px solid;
+    border-bottom:  whitesmoke 2px solid;
+}
+
+.uebung05 .uebung05-titel h1{
+    color : white;
+    margin : 10px;
+
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.form-div-5{
+    display: block;
+    width : 80%;
+    min-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    background: linear-gradient(131deg, rgba(255,255,255,1) 0%, #98B841 100%);
+    box-shadow: 10px 10px 5px 0px #868686;
+}
+
+.eingabe-form-5{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    display: block;
+    justify-content: center;
+    margin : 10px auto;
+    padding: 10px;
+}
+
+.eingabe-form-5 .row{
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.eingabe-form-5 .row label{
+
+}
+
+.eingabe-form-5 .row input {
+    flex: 1;
+    flex-basis: 300px;
+    padding: 10px;
+    margin-left: 2rem;
+}
+
+.eingabe-form-5 .button-row{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.eingabe-form-5 .button-row button{
+    margin: 10px;
+    padding: 5px;
+    margin-right: 0px;
+}
+
+
+
+
+/* -----------------------------------------    Übung 6 formatierung  -----------------------------------------*/
+
+.uebung06{
+    min-height: 100vh;
+    width : 100vw;
+    background-color: #F2DCF5;
+}
+
+.uebung06-titel{
+    display: inline-block;
+    height: 1.2 rem;
+    width : 140px;
+    margin: 2rem;
+    border: #DD93E6 solid 2px;
+    background: linear-gradient(12deg, #DD93E6 0%,#CCBACF 100%);
+    box-shadow: 10px 10px 5px 0px #B87ABF;
+    border-right: whitesmoke 2px solid;
+    border-bottom:  whitesmoke 2px solid;
+}
+
+.uebung06 .uebung06-titel h1{
+    color : white;
+    margin : 10px;
+
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.form-div-6{
+    display: block;
+    width : 80%;
+    min-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    background: linear-gradient(131deg, rgba(255,255,255,1) 0%, #DCC8DE 100%);
+    box-shadow: 10px 10px 5px 0px #868686;
+}
+
+.eingabe-form-6{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    display: block;
+    justify-content: center;
+    margin : 10px auto;
+    padding: 10px;
+}
+
+.eingabe-form-6 .row{
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.eingabe-form-6 .row label{
+
+}
+
+.eingabe-form-6 .row input {
+    flex: 1;
+    flex-basis: 300px;
+    padding: 10px;
+    margin-left: 2rem;
+}
+
+.eingabe-form-6 .button-row{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.eingabe-form-6 .button-row button{
+    margin: 10px;
+    padding: 5px;
+    margin-right: 0px;
+}
+
+
+
+
+/* -----------------------------------------    Übung 7 formatierung  -----------------------------------------*/
+
+.uebung07{
+    min-height: 100vh;
+    width : 100vw;
+    background-color: #C8CEDE;
+}
+
+.uebung07-titel{
+    display: inline-block;
+    height: 1.2 rem;
+    width : 140px;
+    margin: 2rem;
+    border: #3352A3 solid 2px;
+    background: linear-gradient(12deg, #39435d81 0%,#3352A3 100%);
+    box-shadow: 10px 10px 5px 0px #C8CEDE;
+    border-right: whitesmoke 2px solid;
+    border-bottom:  whitesmoke 2px solid;
+}
+
+.uebung07 .uebung07-titel h1{
+    color : white;
+    margin : 10px;
+
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.form-div-7{
+    display: block;
+    width : 80%;
+    min-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    background: linear-gradient(131deg, rgba(255,255,255,1) 0%, #3353a385 100%);
+    box-shadow: 10px 10px 5px 0px #868686;
+}
+
+.eingabe-form-7{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    display: block;
+    justify-content: center;
+    margin : 10px auto;
+    padding: 10px;
+}
+
+.eingabe-form-7 .row{
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.eingabe-form-7 .row label{
+
+}
+
+.eingabe-form-7 .row input {
+    flex: 1;
+    flex-basis: 300px;
+    padding: 10px;
+    margin-left: 2rem;
+}
+
+.eingabe-form-7 .button-row{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.eingabe-form-7 .button-row button{
+    margin: 10px;
+    padding: 5px;
+    margin-right: 0px;
+}
+
+
+
+/* -----------------------------------------    Übung 8 formatierung  -----------------------------------------*/
+
+.uebung08{
+    min-height: 100vh;
+    width : 100vw;
+    background-color: #71ad7b;
+}
+
+.uebung08-titel{
+    display: inline-block;
+    height: 1.2 rem;
+    width : 140px;
+    margin: 2rem;
+    border: #3352A3 solid 2px;
+    background: linear-gradient(12deg, #3c924a 0%,#bccebf 100%);
+    box-shadow: 10px 10px 5px 0px #C8CEDE;
+    border-right: whitesmoke 2px solid;
+    border-bottom:  whitesmoke 2px solid;
+}
+
+.uebung08 .uebung08-titel h1{
+    color : white;
+    margin : 10px;
+
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.form-div-8{
+    display: block;
+    width : 80%;
+    min-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    background: linear-gradient(131deg, rgba(255,255,255,1) 0%, #44694a 100%);
+    box-shadow: 10px 10px 5px 0px #868686;
+}
+
+.eingabe-form-8{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    display: block;
+    justify-content: center;
+    margin : 10px auto;
+    padding: 10px;
+}
+
+.eingabe-form-8 .row{
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.eingabe-form-8 .row label{
+
+}
+
+.eingabe-form-8 .row input {
+    flex: 1;
+    flex-basis: 300px;
+    padding: 10px;
+    margin-left: 2rem;
+}
+
+.eingabe-form-8 .button-row{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.eingabe-form-8 .button-row button{
+    margin: 10px;
+    padding: 5px;
+    margin-right: 0px;
+}
